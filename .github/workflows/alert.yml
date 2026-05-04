@@ -2,8 +2,6 @@ name: testingalertocta
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '45 13 * * *' # Jam 20:45 WIB (13:45 UTC)
 
 jobs:
   run-script:
